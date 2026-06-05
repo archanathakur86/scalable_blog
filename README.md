@@ -22,13 +22,6 @@ A Node.js + Express + MongoDB backend for a scalable blog app.
 - `PUT /api/blogs/:id` - update blog, protected
 - `DELETE /api/blogs/:id` - delete blog, protected
 
-Legacy alias:
-- `GET /api/posts` - same as `/api/blogs`
-- `GET /api/posts/:id` - same as `/api/blogs/:id`
-- `POST /api/posts` - same as `/api/blogs`, protected
-- `PUT /api/posts/:id` - same as `/api/blogs/:id`, protected
-- `DELETE /api/posts/:id` - same as `/api/blogs/:id`, protected
-
 ## Setup
 1. Copy `.env.example` to `.env`
 2. Set `MONGODB_URI` and `JWT_SECRET`
